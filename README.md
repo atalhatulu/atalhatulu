@@ -1,74 +1,89 @@
-# Abdullah Talha Tülü (atalhatulu)
+```
+                                        ██████                     
+                                      ██    ██                    
+                                    ██      ██                    
+                                   ██    ██████████               
+                                ████      ██      ██              
+                                ██      ██        ██              
+                                ████  ██████████████              
+                                  ██    ██        ██              
+                                   ████  ██████████               
+                                                              atalhatulu@cachyos
+                                                              ------------------
+      _____      _    _   _      _   _   _   _   _   _   _     OS: CachyOS Linux x86_64
+     |  _  |    | |  | | | |    | | | | | | | | | | | | | |    Host: Custom Desktop
+     | | | |_  _| |__| |_| | __ | | | | | | | | | | | | | |    Kernel: Linux 6.x-cachyos
+     | | | \ \/ / '_ \|  _  |/ _` | | | | | | | | | | | | |    Uptime: way too long 😌
+     \ \_/ / >  <| | | | | | | (_| |_| |_| |_| |_| |_| |_|    Packages: pacman + yay (AUR)
+      \___/ /_/\_\_| |_\_| |_|\__,_\__,_\__,_\__,_\__,_\__,_\    Shell: bash / zsh
+                                                                DE: KDE Plasma 6
+                                                                WM: kwin (Wayland)
+                                                                Theme: dark, orange accent
+                                                                Terminal: kitty / konsole
+                                                                CPU: (main dev box)
+                                                                GPU: AMD Radeon RX 5500 XT
+                                                                Memory: plenty
+                                                                Disk: CachyOS + B-Drive
+```
 
-**Developer / Systems Engineer** — İstanbul, Türkiye
-
-> Low-level systems, custom AI, and automation. I build things that actually work — from bare-metal kernels to LLM pipelines.
-
----
-
-## 🛠 What I Do
-
-| Area | Stack |
-|------|-------|
-| **Systems / OS** | Rust, x86_64, bare-metal kernel dev (QEMU/KVM) |
-| **Embedded / Hardware** | ESP32 (ESP-IDF, NimBLE), WiFi/BLE, RF |
-| **AI / ML** | LLM fine-tuning (LoRA/QLoRA), AI agents, RAG, prompt engineering |
-| **Compression** | Lossless compression, arithmetic coding, PAQ-style modeling |
-| **Automation** | Data pipelines, scraping, workflow automation for SMBs |
-| **Languages** | Python, Rust, C, JavaScript, Bash |
-
----
-
-## 📦 Featured Projects
-
-### [TEATHA](https://github.com/atalhatulu/teatha) — WiFi/BLE Pentest Tool on ESP32
-ESP32 tabanlı güvenlik aracı: WiFi scan, deauth, handshake capture, captive portal + BLE scan/spam. Single-device portable pentest platform.
-
-### [SparkOS](https://github.com/atalhatulu/sparkos) — Rust Operating System Kernel
-Sıfırdan yazılmış x86_64 işletim sistemi çekirdeği. Bootloader, VGA, IDT, PIC, keyboard, shell — hepsi Rust ile. QEMU+KVM üzerinde test ediliyor.
-
-### [Cortex](https://github.com/atalhatulu/cortex) — Lossless Text Compressor (Rust)
-Wikipedia metinlerinde zstd/xz'yi geçmeyi hedefleyen kayıpsız sıkıştırıcı. PAQ-tarzı modelleme, arithmetic coding, Hutter Prize yaklaşımı.
-
-### [Dorina](https://github.com/atalhatulu/dorina-agent) — Personal AI Agent
-Sohbet, recall (FTS5), orchestrator mimarisi ve dashboard'u olan kişisel AI asistan. Python ile.
-
-### [Dorina-LLM](https://github.com/atalhatulu/dorina-llm) — Turkish LLM Fine-tuning
-Qwen2.5 + LoRA/QLoRA ile Türkçe LLM fine-tuning pipeline'ı. 2K+ örnekle kişisel asistan modeli eğitimi.
-
-### [Oz+ (ozplus-lang)](https://github.com/atalhatulu/ozplus-lang) — Türkçe Programlama Dili
-Python okunaklılığında, C hızında, %100 Türkçe açık kaynaklı programlama dili. C ile yazıldı.
-
-### [Argus](https://github.com/atalhatulu/argus) — Hands-Free Computer Control
-Göz takibi ve el hareketleriyle bilgisayarı yöneten temassız arayüz. Python.
+**Abdullah Talha Tülü** · `atalhatulu`
+Developer / Systems Engineer — systematic, self-optimizing, "smarter over restricted."
 
 ---
 
-## 🧰 Other Projects
+```
+ _  _       ___                       OS: Windows 11 Pro x64
+| || |___  / __|   _ __  __ _ _ _     Host: RTX Box (.235)
+| __ / -_) \__ \  | '_ \/ _` | '_|    GPU: NVIDIA GeForce RTX 4050 Laptop (6GB)
+|_||_\___| |___/  | | | \__,_|_|      ML: QLoRA / LoRA fine-tuning rig
+                  |_| |_|             SSH: OpenSSH server for remote training
+                                      Role: LLM training & heavy GPU jobs
+```
 
-- [Orion Browser](https://github.com/atalhatulu/orion-browser) — JavaScript tabanlı tarayıcı
-- [ARCA](https://github.com/atalhatulu/arca) — Arithmetic Range Coder Architecture
-- [Rock-Paper-Scissors AI](https://github.com/atalhatulu/rockpaperscissors_ai) — Yapay zekalı taş-kağıt-makas
+> **İkinci sistem**: Windows GPU makinesi — Türkçe LLM fine-tuning (Dorina-LLM), Qwen + LoRA, uzak eğitim sunucusu.
 
 ---
 
-## 🎯 Currently Working On
+## 🔥 Active Projects / Top Repos
 
-- **Cortex** — Hutter Prize hedefli sıkıştırıcı geliştirme
-- **TEATHA v4** — ESP32-S3 güvenlik platformu
-- **Dorina-LLM** — Türkçe LLM fine-tuning (RTX 4050 GPU üzerinde)
-- **Freelance** — Upwork'te KOBİ'ler için AI otomasyon ve custom yazılım
+| Repo | What it is | Stack |
+|------|-----------|-------|
+| **[teatha](https://github.com/atalhatulu/teatha)** | WiFi/BLE pentest tool on ESP32 | C, ESP-IDF, NimBLE |
+| **[sparkos](https://github.com/atalhatulu/sparkos)** | Rust x86_64 OS kernel (bare-metal) | Rust |
+| **[cortex](https://github.com/atalhatulu/cortex)** | Lossless compressor to beat zstd/xz | Rust, PAQ-style |
+| **[dorina-agent](https://github.com/atalhatulu/dorina-agent)** | Personal AI agent | Python, FTS5, SQLite |
+| **[dorina-llm](https://github.com/atalhatulu/dorina-llm)** | Turkish LLM fine-tuning pipeline | Python, QLoRA, Qwen |
+| **[ozplus-lang](https://github.com/atalhatulu/ozplus-lang)** | Turkish programming language | C |
+| **[argus](https://github.com/atalhatulu/argus)** | Hands-free computer control (eye/hand) | Python |
+
+---
+
+## 🛠 Toolbox
+
+- **Systems**: Rust, C, x86_64 bare-metal, bootloaders, QEMU/KVM
+- **Embedded**: ESP32 (ESP-IDF), NimBLE, WiFi/BLE, captive portal
+- **AI/ML**: LLM fine-tuning (LoRA/QLoRA), AI agents, RAG, compression
+- **Automation**: data pipelines, scraping, SMB workflow tooling
+- **Other**: Python, JavaScript, Bash, Git
+
+---
+
+## 🎯 Now
+
+- **Cortex** → Hutter Prize target
+- **TEATHA v4** → ESP32-S3 security platform
+- **Dorina-LLM** → Turkish model on RTX 4050
+- **Freelance** → AI automation & custom software for SMBs (Upwork)
 
 ---
 
 ## 📫 Contact
 
 - 🌐 [atalhatulu.com](https://atalhatulu.com)
-- 💼 Upwork: AI otomasyon & custom software
 
 ---
 
-*"Smarter over restricted — I build systems that self-optimize, not systems that limit."*
+*Smarter over restricted — I build systems that optimize themselves, not systems that limit.*
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=atalhatulu&show_icons=true&theme=dark&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=atalhatulu&layout=compact&theme=dark&hide_border=true)
+![stats](https://github-readme-stats.vercel.app/api?username=atalhatulu&show_icons=true&theme=dark&hide_border=true&bg_color=00000000)
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=atalhatulu&layout=compact&theme=dark&hide_border=true&bg_color=00000000)
