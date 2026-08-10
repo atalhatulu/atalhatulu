@@ -28,8 +28,8 @@ I build things that actually work — from bare-metal OS kernels to LLM pipeline
   <a href="https://github.com/atalhatulu/sparkos">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=sparkos&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
   </a>
-  <a href="https://github.com/atalhatulu/ozplus-lang">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=ozplus-lang&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
+  <a href="https://github.com/atalhatulu/ozp">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=ozp&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
   </a>
   <a href="https://github.com/atalhatulu/teatha">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=teatha&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
@@ -41,7 +41,7 @@ I build things that actually work — from bare-metal OS kernels to LLM pipeline
 | **Dorina Agent** | Personal AI agent (chat, recall, orchestrator) — Python |
 | **Cortex** | Lossless compressor targeting zstd/xz — Rust, PAQ-style |
 | **SparkOS** | x86_64 OS kernel from scratch — Rust, bare-metal |
-| **Oz+ Language** | 100% Turkish programming language — C |
+| **Oz+ Language** | 100% Turkish AOT-compiled language — Rust |
 | **TEATHA** | WiFi/BLE pentest tool on ESP32 — C, ESP-IDF, NimBLE |
 
 ---
