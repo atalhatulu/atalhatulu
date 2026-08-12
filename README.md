@@ -39,7 +39,7 @@ I build things that actually work — from bare-metal OS kernels to LLM pipeline
 | Project | What it does |
 |---------|-------------|
 | **Dorina Agent** | Personal AI agent (chat, recall, orchestrator) — Python |
-| **Cortex** | Lossless compressor targeting zstd/xz — Rust, PAQ-style |
+| **Cortex** | PAQ-style lossless compressor for the Hutter Prize — Rust, `.ctx` archives |
 | **SparkOS** | x86_64 OS kernel from scratch — Rust, bare-metal |
 | **Oz+ Language** | 100% Turkish AOT-compiled language — Rust |
 | **TEATHA** | WiFi/BLE pentest tool on ESP32 — C, ESP-IDF, NimBLE |
