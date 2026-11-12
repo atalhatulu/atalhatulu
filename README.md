@@ -2,9 +2,9 @@
 
 # <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="40" style="margin-right: 10px"/> Hello, I'm Abdullah Talha Tülü
 
-**`atalhatulu`** · Developer / Systems Engineer · İstanbul 🇹🇷
+**`atalhatulu`** · Systems Architect & Deep Learning Engineer · İstanbul 🇹🇷
 
-> Low-level systems · Custom AI · Automation — *"smarter over restricted"*
+> Bare-metal kernels · From-scratch LLM architectures · High-performance engines — *"smarter over restricted"*
 
 </div>
 
@@ -12,37 +12,43 @@
 
 ## 👨‍💻 About Me
 
-I build things that actually work — from bare-metal OS kernels to LLM pipelines. I split my time between low-level systems (Rust, x86_64, ESP32) and applied AI (agents, fine-tuning, compression). I optimize for real results, not complexity.
+I design and build high-performance systems from the ground up — from bare-metal x86_64 OS kernels and Vulkan graphics engines to training large language models from pure tensor primitives. I bridge the gap between low-level hardware constraints (Rust, C, bare-metal, wgpu) and fundamental deep learning engineering (PyTorch tensor engines, GQA/RoPE/SwiGLU, distributed pre-training).
 
 ---
 
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/atalhatulu/dorina-agent">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=dorina-agent&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
+  <a href="https://github.com/atalhatulu/dorina-ai">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=dorina-ai&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
   </a>
-  <a href="https://github.com/atalhatulu/cortex">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=cortex&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
+  <a href="https://github.com/atalhatulu/project-rugeng">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=project-rugeng&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
   </a>
   <a href="https://github.com/atalhatulu/sparkos">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=sparkos&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
   </a>
+  <a href="https://github.com/atalhatulu/cortex">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=cortex&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
+  </a>
+  <a href="https://github.com/atalhatulu/dorina-agent">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=dorina-agent&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
+  </a>
   <a href="https://github.com/atalhatulu/ozp">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=ozp&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
   </a>
-  <a href="https://github.com/atalhatulu/teatha">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atalhatulu&repo=teatha&theme=dark&bg_color=0d1117&hide_border=true&show_owner=true"/>
-  </a>
 </p>
 
-| Project | What it does |
-|---------|-------------|
-| **Dorina Agent** | Personal AI agent (chat, recall, orchestrator) — Python |
-| **Cortex** | PAQ-style lossless compressor for the Hutter Prize — Rust, `.ctx` archives |
-| **SparkOS** | x86_64 OS kernel from scratch — Rust, bare-metal |
-| **Oz+ Language** | 100% Turkish AOT-compiled language — Rust |
-| **TEATHA** | WiFi/BLE pentest tool on ESP32 — C, ESP-IDF, NimBLE |
+| Project | What it does | Stack |
+|---------|--------------|-------|
+| **[Dorina AI](https://github.com/atalhatulu/dorina-ai)** | From-scratch PyTorch LLM (144.7M GQA/RoPE/SwiGLU, 5.0B+ tokens DDP curriculum) | Python, PyTorch, CUDA, DDP |
+| **[Project Rugeng](https://github.com/atalhatulu/project-rugeng)** | Ember Engine · Data-oriented hybrid 2D/3D game engine and scene editor | Rust, Vulkan 1.3/1.4, Wayland |
+| **[SparkOS](https://github.com/atalhatulu/sparkos)** | Bare-metal x86_64 OS kernel from scratch with capability IPC & GUI compositor | Rust (`no_std`), x86_64 asm |
+| **[Project Terminal](https://github.com/atalhatulu/project-terminal)** | GPU-accelerated, ultra-low latency modern Linux desktop terminal emulator | Rust, wgpu, cosmic-text |
+| **[Cortex](https://github.com/atalhatulu/cortex)** | PAQ-style context-mixing lossless compressor engineered for the Hutter Prize | Rust, `.ctx` bitstream |
+| **[Dorina Agent](https://github.com/atalhatulu/dorina-agent)** | Autonomous CLI developer agent with 9-state machine loop & 56+ tool ecosystem | Python, Multi-LLM provider |
+| **[OZ Plus (ozp)](https://github.com/atalhatulu/ozp)** | 100% Turkish syntax AOT-compiled language, SSA-form AST and compiler | Rust / C++ |
+| **[Dorina-Zero](https://github.com/atalhatulu/dorina4)** | AlphaZero dual-head CNN with Monte Carlo Tree Search (MCTS) self-play AI | Python, PyTorch, Bitboards |
 
 ---
 
@@ -50,29 +56,30 @@ I build things that actually work — from bare-metal OS kernels to LLM pipeline
 
 <p align="center">
 <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vulkan-A01B1B?style=for-the-badge&logo=vulkan&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/c%23%20%2F%20.net-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
+<img src="https://img.shields.io/badge/Wayland-000000?style=for-the-badge&logo=wayland&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
-<img src="https://img.shields.io/badge/Made%20On-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
-**Focus areas:** OS/dev low-level systems · LLM fine-tuning (LoRA/QLoRA) · AI agents · lossless compression · embedded WiFi/BLE · SMB automation & scraping
+**Focus areas:** From-scratch LLM pre-training & attention mechanics · Bare-metal OS & capability systems · Data-oriented engine architecture (Vulkan/wgpu) · Lossless data compression (PAQ/Hutter Prize) · Autonomous agent state machines
 
 ---
 
-## ⚙️ My Setup
+## ⚙️ Systems & Setup
 
 | | |
 |---|---|
-| **Main dev box** | CachyOS (Arch) · KDE Plasma 6 · AMD RX 5500 XT · Wayland |
-| **GPU rig** | Windows 11 · NVIDIA RTX 4050 (6GB) — remote LLM fine-tuning server |
-| **Toolbox** | Rust, C, Python, ESP-IDF, QEMU/KVM, GitHub Actions |
-| **Philosophy** | Ship tested, maintainable systems. Quality over shortcuts. |
+| **Main Workstation** | CachyOS (Arch Linux) · Wayland · AMD GPU · x86_64 |
+| **Compute & Cluster** | Dual Tesla T4 (DDP cluster), remote fine-tuning & inference rigs |
+| **Core Arsenal** | Rust, C, PyTorch, Vulkan SDK, wgpu, QEMU/KVM, Git |
+| **Engineering Axiom** | Deterministic design, zero unnecessary abstraction, verified metrics. |
 
 ---
 
@@ -94,7 +101,7 @@ I build things that actually work — from bare-metal OS kernels to LLM pipeline
 <div align="center">
   <i>"Smarter over restricted — I build systems that optimize themselves, not systems that limit."</i>
   <br/><br/>
-  🌐 <a href="https://atalhatulu.com">atalhatulu.com</a> · 💼 Open to freelance AI automation & custom software
+  🌐 <a href="https://atalhatulu.com">atalhatulu.com</a> · 💼 Open for deep engineering collaborations & systems architecture
   <br/><br/>
   <img src="https://api.vaunt.dev/v1/github/entities/atalhatulu/achievements?format=svg&limit=8"/>
 </div>
