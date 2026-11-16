@@ -48,7 +48,7 @@ I design and build high-performance systems from the ground up — from bare-met
 | **[Cortex](https://github.com/atalhatulu/cortex)** | PAQ-style context-mixing lossless compressor engineered for the Hutter Prize | Rust, `.ctx` bitstream |
 | **[Dorina Agent](https://github.com/atalhatulu/dorina-agent)** | Autonomous CLI developer agent with 9-state machine loop & 56+ tool ecosystem | Python, Multi-LLM provider |
 | **[OZ Plus (ozp)](https://github.com/atalhatulu/ozp)** | 100% Turkish syntax AOT-compiled language, SSA-form AST and compiler | Rust / C++ |
-| **[Dorina-Zero](https://github.com/atalhatulu/dorina4)** | AlphaZero dual-head CNN with Monte Carlo Tree Search (MCTS) self-play AI | Python, PyTorch, Bitboards |
+| **[Dorina-Zero](https://github.com/atalhatulu/dorina4)** | AlphaZero dual-head ResNet with MCTS self-play AI & [Live Web Arena](https://atalhatulu.com/dorina4) | PyTorch, ONNX Web, Bitboards |
 
 ---
 
